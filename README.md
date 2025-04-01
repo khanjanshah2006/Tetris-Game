@@ -96,18 +96,14 @@ To run the tetris game, follow these steps:
 | Class/Sturct           | Responsibility                                                   |
 |----------------|-----------------------------------------------------------------|
 |`Tetromino`|Handles individual block shapes, movement, and rotation|
-|`GameLogic`|Manages the game loop, rendering, input handling, and score tracking|
-|`Grid`|Stores the game board and manages clearing rows|
 
 ---
 ## Key Member Functions
 
-### Tetromino Class
 - `canMove(dx, dy, shape)` → Checks if Tetromino can move in a given direction.
 - `rotateTetromino()` → Rotates the current Tetromino if space allows.
 - `placeTetromino()` → Locks the Tetromino in place when it reaches the bottom.
 
-### GameLogic Class
 - `handleInput()` → Handles keyboard controls for movement and rotation.
 - `clearLines()` → Detects and clears completed rows.
 - `spawnTetromino()` → Spawns a new Tetromino when the previous one is placed.
