@@ -121,4 +121,8 @@ To run the tetris game, follow these steps:
 - A C++ compiler (e.g g++)
 - Windows (modifications required for Linux)
 
+## Image
+![Tetris_game](https://github.com/user-attachments/assets/8d0ccf12-8d34-42e0-ba2e-195d15fd7319)
+
+
 🎉 Thanks for checking out this project! Hope you enjoy playing! 🚀
